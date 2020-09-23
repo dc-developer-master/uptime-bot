@@ -34,7 +34,7 @@ if(!linkler.find(a => a.site === args[1])) return message.channel.send(`Görün�
 
 if(linkler.length == 1) {
 data.delete('chimped');
-return message.channel.send(`\`${args[1]}\` linki \`${linkler.length}\` link arasından bulundu ve silindi. Şu anda senin: \`${linkler.filter(c => c.sahipID === message.author.id).length-1}\` linkin aktif durumda.`)
+return message.channel.send(`\`${args[1]}\` linki \`${linkler.length}\` link arasından bulundu ve silindi.`)
 } else {
 let ex = [];
 linkler.forEach(db => {
