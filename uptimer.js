@@ -95,7 +95,7 @@ var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g
 client.login(client.ayarlar.token);
 
 client.on('ready', async () => {
-client.user.setActivity(`Özelden: ${client.ayarlar.prefix}link ekle/liste/sil url/hepsi | Can°B#1308 tarafından CodAre için yapılmıştır.`)
+client.user.setActivity(`Özelden: ${client.ayarlar.prefix}link ekle/liste/sil url/hepsi | can#0002 tarafından CodAre için yapılmıştır.`)
 client.user.setStatus('dnd');
 });
 
