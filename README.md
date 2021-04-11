@@ -1,3 +1,3 @@
 # uptime-bot
 Glitch için uptime botu, yapımı bana aittir.
-Can°B#1308 tarafından discord.gg/codare için yapılmıştır.
+can#0002 tarafından discord.gg/codare için yapılmıştır.
