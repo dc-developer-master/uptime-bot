@@ -15,7 +15,8 @@
     "moment": "^2.28.0",
     "quick.db": "^7.1.2",
     "node-fetch": "^2.6.1",
-    "site-checker": "^3.1.0"
+    "site-checker": "^3.1.0",
+    "dotenv": "^10.0.0"
   },
   "engines": {
     "node": "12.x"
