@@ -11,7 +11,7 @@ const data = require('quick.db');
 require("./util/eventLoader")(client);
 require("dotenv").config();
 
-client.ayarlar = { "token": process.env.token, "prefix": "uptime ", "sahip": "760489967666331679" };
+client.ayarlar = { "token": process.env.token, "prefix": "uptime!", "sahip": "760489967666331679" };
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
