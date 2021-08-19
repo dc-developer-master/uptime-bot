@@ -9,8 +9,9 @@ const express = require("express");
 const kontrol = require("node-fetch");
 const data = require('quick.db');
 require("./util/eventLoader")(client);
+require("dotenv").config();
 
-client.ayarlar = { "token": "TOKEN", "prefix": "PREFİX", "sahip": "SAHİP" };
+client.ayarlar = { "token": process.env.token, "prefix": "uptime ", "sahip": "760489967666331679" };
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
